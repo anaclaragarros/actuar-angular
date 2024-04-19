@@ -20,16 +20,16 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 🎲 Rodando o projeto
  Clone este repositório
-$ git clone: https://github.com/anaclaragarros/actuar-angular
+ git clone: https://github.com/anaclaragarros/actuar-angular
 
  Acesse a pasta do projeto no terminal/cmd
-$ cd actuar-angular2
+ cd actuar-angular2
 
  Instale as dependências
-$ npm install
+ npm install
 
  Execute a aplicação em modo de desenvolvimento
-$ ng s
+ ng s
 
 O servidor inciará na porta: http://localhost:4200/
 Integrações API
