@@ -19,19 +19,19 @@ Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js, Angular 17. Além disto é bom ter um editor para trabalhar com o código como VSCode
 
 🎲 Rodando o projeto
-# Clone este repositório
-$ git clone:
+ Clone este repositório
+$ git clone: https://github.com/anaclaragarros/actuar-angular
 
-# Acesse a pasta do projeto no terminal/cmd
+ Acesse a pasta do projeto no terminal/cmd
 $ cd actuar-angular2
 
-# Instale as dependências
+ Instale as dependências
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+ Execute a aplicação em modo de desenvolvimento
 $ ng s
 
-# O servidor inciará na porta: http://localhost:4200/
+O servidor inciará na porta: http://localhost:4200/
 Integrações API
 🛠 Tecnologias
 A seguinte ferramenta foi usada na construção do projeto:
