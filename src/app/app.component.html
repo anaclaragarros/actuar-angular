@@ -1,55 +1,7 @@
-<main class="main">
+<router-outlet>
 
-<form>
-  <label for="name">Nome:</label><br>
-  <input type="text" id="name" name="name"><br>
+<a routerLink="/">Home</a>
+<a routerLink="/">Registro</a>
+<a routerLink="/">Listagem</a>
 
-  <br>
-  <label for="email">Email:</label><br>
-  <input type="text" id="email" name="email"><br>
-
-  <br>
-  <label for="dataNascimento">Data de nascimento:</label><br>
-  <input type="text" id="dataNascimento" name="dataNascimento"><br>
-
-  <br>
-  <label for="dataNascimento">Sexo:</label><br>
-  <input type="radio" id="masculino" name="genero" value="M">
-  <label for="masculino">Masculino</label><br>
-  <input type="radio" id="feminino" name="genero" value="F">
-  <label for="feminino">Feminino</label><br>
-
-  <br>
-  <button type="button" (click)="limpar()">limpar</button>
-  <button type="button" (click)="adicionar()">Salvar</button>
-</form>
-<br>
-
-<table class="styled-table">
-    <!-- inicio cabeçalho tabela-->
-  <tr>
-    <th>Nome</th>
-    <th>Email</th>
-    <th>Data de nascimento</th>
-    <th>Sexo</th>
-    <th>Ações</th>
-  </tr>
-   <!-- fim cabeçalho tabela-->
-
-   @for (pessoa of listagem; track listagem; let idx = $index){
-    <tr>
-      <td>{{pessoa.Nome}}</td>
-      <td>{{pessoa.Email}}</td>
-      <td>{{pessoa.DataNascimento}}</td>
-      <td>{{pessoa.Sexo}}</td>
-      <td><button type="button" (click)="deletar(idx)">Deletar</button></td>
-    </tr>
-   }
-
-
-
-</table>
-
-
-</main>
-<router-outlet />
+</router-outlet>

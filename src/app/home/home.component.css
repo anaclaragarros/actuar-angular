@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://e0.pxfuel.com/wallpapers/51/496/desktop-wallpaper-fitness-background-1024x768-fitness.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  cursor: pointer;
+  height: 60px;
+  width: 100%;
+}
+
+.sidebar:hover .menu-items {
+  display: flex;
+}
+
+.menu-icon {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.menu-items {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.menu-title {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-name {
+  display: none;
+}
+
+.menu-items a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.menu-items a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.main {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.logo-container img {
+  max-width: 150px;
+  height: auto;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;}
